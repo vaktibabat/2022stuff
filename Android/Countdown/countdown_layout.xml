@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/eventDate"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/editTextDate"
+        android:layout_width="237dp"
+        android:layout_height="298dp"
+        android:layout_weight="1"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint='@string/enter_the_date'
+        android:inputType="date"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="46dp"
+        android:layout_height="585dp"
+        android:layout_weight="1"
+        android:text="@string/days_remaining" />
+
+    <EditText
+        android:id="@+id/days"
+        android:layout_width="77dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/_00" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="START" />
+
+
+</LinearLayout>
