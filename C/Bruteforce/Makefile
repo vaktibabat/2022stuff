@@ -1,5 +1,5 @@
 #The bruteforce program
-main : main.c
+main : main.c brute.h ipc.h
 	gcc -Wall main.c -o main
 
 #The test program
