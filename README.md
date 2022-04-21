@@ -5,3 +5,5 @@ Projects Im making in 2022
 *Android  
 *C  
 *Java  
+*Rust
+*Cryptography
